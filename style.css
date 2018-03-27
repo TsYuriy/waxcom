@@ -1083,6 +1083,13 @@
     margin-bottom: 30px;
 }
 
+.footer__span {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 100px;
+    display: none;
+}
+
 .footer_link:visited,
 .footer_link:link {
     color: #959595;
@@ -1207,4 +1214,33 @@
         margin-bottom: 30px;
         width: 100%;
     }
+    .footer__block {
+        display: none;
+    }
+
+    .footer__block:first-child {
+        display: block;
+    }
+
+    .footer__block:first-child > p,
+    .footer__block:first-child > div{
+        display: none;
+    }
+
+    .footer__span {
+        display: block;
+        text-align: center;
+    }
+
+    .partners__width {
+        flex-direction: column;
+        padding: 50px;
+
+    }
+
+    .partners__logo{
+        margin: 20px auto ;
+
+    }
+
 }
